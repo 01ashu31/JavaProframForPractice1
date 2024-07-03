@@ -1,15 +1,22 @@
 package stringprogram;
 
+import java.util.Scanner;
+
 public class Removeduplicatestring {
 
 	public static void main(String[] args) {
-		String input="testing";
-		String result=removeRepeated(input);
-		System.out.println("Original string : " + input);
-		System.out.println("result : " + result);
+		 Scanner scanner = new Scanner(System.in);
+
+	        System.out.println("Enter a string:");
+	        String input = scanner.nextLine();
+
+	        String result = removeDuplicates(input);
+	        System.out.println("String after removing duplicates: " + result);
+
+	        scanner.close();
 
 	}
-	public static String removeRepeated(String str) {
+	public static String removeDuplicates(String str) {
 		StringBuilder result= new StringBuilder();
 		
 		for(int i=0;i<str.length();i++) {
