@@ -18,12 +18,12 @@ public class SpacePattern1234 {
 		
 		public void pattern1(int num) {
 			
-			for(int i= 0; i<=num;i++) {
-				for(int k=num-1; k<num;k--) {
+			for(int i= 1; i<=num;i++) {
+				for(int k=num-1; k>0;k--) {
 					System.out.print(" ");
 				}
 				System.out.println(" ");
-				for(int j=0;j<=1;j++) {
+				for(int j=0;j<i;j++) {
 					System.out.print("*");
 				}
 				System.out.println(" ");
