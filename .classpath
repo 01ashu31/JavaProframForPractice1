@@ -6,5 +6,14 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/computer 2000/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.8/batik-bridge-1.8.jar" sourcepath="C:/Users/computer 2000/.m2/repository/org/apache/xmlgraphics/batik-bridge/1.8/batik-bridge-1.8-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="org.apache.xmlgraphics"/>
+			<attribute name="maven.artifactId" value="batik-bridge"/>
+			<attribute name="maven.version" value="1.8"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
